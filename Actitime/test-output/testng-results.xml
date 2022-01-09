@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78" started-at="2022-01-09T11:40:18Z" finished-at="2022-01-09T11:40:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78" started-at="2022-01-09T11:40:18Z" finished-at="2022-01-09T11:40:19Z">
+      <class name="com.actitime.testscript.Demo">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.testscript.Demo@2cfb4a64]" name="testLogin" duration-ms="39" started-at="2022-01-09T17:10:18Z" data-provider="Login" finished-at="2022-01-09T17:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.testscript.Demo@2cfb4a64]" name="testLogin" duration-ms="3" started-at="2022-01-09T17:10:19Z" data-provider="Login" finished-at="2022-01-09T17:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- com.actitime.testscript.Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
